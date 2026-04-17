@@ -18,11 +18,11 @@ function exibirUsuario(usuario: Usuario): void {
     console.log(`Idade: ${usuario.idade}`);
 }
 
-exibirUsuario({ nome: 'Samuel', idade: 16 });
+exibirUsuario({ nome: 'Samuel', idade: 17 });
 
 // Exemplo de uma função que retorna arrays e tem parametros opcionais
 function listarNomes(nomes: string[]): void {
     nomes.forEach(nome => console.log(nome));
 }
 
-listarNomes(['Silvana', 'Adriano', 'Carlos']);
+listarNomes(['Silvana', 'Adriano', 'Carlos']); 
